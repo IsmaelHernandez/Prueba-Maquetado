@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.DivContainer{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__green{
+    background-color:  #9bca3b;
+    width: 100%;
+}
+.header__blue{
+    background-color:  #004d7d;
+    width: 100%;
+}
+.text_header_green{
+    text-align: center;
+    color: #fff;
+}
+.text_header_blue{
+    text-align: center;
+    color: #fff;
+}
+
+.divHeaderBlack{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;
+}
+
+.itemHeader{
+    width: 100px;
+    margin: 10px;
+    /* background-color: red; */
+}
+.itemHeaderblue{
+    width: 100px;
+    background-color: #004d7d; 
+    padding: 10px;
+}
+.img1{
+    margin-left: -67px;
+}
+
+.DivWhite{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.DivWhite2{
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemWhite{
+    width: 400px;
+    margin: 10px;
+    /* background-color: red; */
+
+}
+
+.card{
+    display: flex;
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    /* background-color: blueviolet; */
+    background-color: #F8F9F9;
+    border-radius: 10px;
+    /* background-color: red; */
+}
+.card1{
+    width: 50%;
+    text-align: center;   
+}
+.card2{
+    width: 50%; 
+    text-align: center;
+}
+
+.img2white{
+    width: 100%;
+}
+
+
+.container {
+    position: relative;
+    border-radius: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #fff;
+  
+  }
+
+  .brand-title {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #004d7d;
+    letter-spacing: 1px;
+  }
+  .brand-title-black{
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: #000;
+    letter-spacing: 1px;
+  }
+  
+  .inputs {
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  label, input, button {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  label {
+    margin-bottom: 4px;
+  }
+  
+  label:nth-of-type(2) {
+    margin-top: 12px;
+  }
+  
+  input::placeholder {
+    color: gray;
+  }
+  
+  input {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    margin: 5px;
+    border: 1px solid #004d7d;
+  }
+  
+  button {
+    color: white;
+    margin-top: 20px;
+    background: #004d7d;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 900;
+  }
+  
+ p{
+    color: #004d7d;
+ }
+  .h1{
+    color: #004d7d;
+  }
+  
+ 
